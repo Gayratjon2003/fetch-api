@@ -1,0 +1,16 @@
+.users-ui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .posts {
+        ul {
+            list-style: none;
+            text-align: justify;
+            li {
+                margin: 15px 0;
+                color: #00ff00;
+            }
+        }
+    }
+}
