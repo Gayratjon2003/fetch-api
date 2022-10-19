@@ -24,14 +24,13 @@ function Home() {
       .get("https://jsonplaceholder.typicode.com/posts")
       .then((res) => {
         setPostsData(res?.data);
-        setData(postsData.filter((item) => item.userId == 1));
         setIsLoading(false);
       })
       .catch((err) => {
         setIsLoading(true);
         setError(err);
       });
-  }, [data]);
+  }, []);
   const onClickItem = (val) => {
     const id = usersData
       .filter((item) => item.name == val)
@@ -46,6 +45,7 @@ function Home() {
           <div>
             <h2>Data from JSON Placeholder</h2>
             <select onChange={(e) => onClickItem(e.target.value)} id="select">
+              <option>Choose a person </option>
               {usersData.map((data) => (
                 <option key={data.id}> {data.name} </option>
               ))}
