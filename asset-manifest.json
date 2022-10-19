@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gayratjon2003.github.io/rest-api/static/css/main.90181188.css",
+    "main.js": "/gayratjon2003.github.io/rest-api/static/js/main.c14d04bc.js",
+    "index.html": "/gayratjon2003.github.io/rest-api/index.html",
+    "main.90181188.css.map": "/gayratjon2003.github.io/rest-api/static/css/main.90181188.css.map",
+    "main.c14d04bc.js.map": "/gayratjon2003.github.io/rest-api/static/js/main.c14d04bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90181188.css",
+    "static/js/main.c14d04bc.js"
+  ]
+}
